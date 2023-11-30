@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'RF Dewi';
+    font-weight: 400;
+    font-style: normal;
+    src:
+        url('fonts/RFDewiExtended-Bold.woff2') format('woff2'),
+        url('fonts/RFDewiExtended-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'RF Dewi';
+    font-weight: 600;
+    font-style: normal;
+    src:
+        url('fonts/RFDewiExtended-Semibold.woff2') format('woff2'),
+        url('fonts/RFDewiExtended-Semibold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'RF Dewi';
+    font-weight: 700;
+    font-style: normal;
+    src:
+        url('fonts/RFDewiExtended-Bold.woff2') format('woff2'),
+        url('fonts/RFDewiExtended-Bold.woff') format('woff');
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+html {
+    background: #F6F6F6;
+    font-family: 'RF Dewi';
+    color: #393939;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #7C7C7C;
+    align-items: center;
+    max-height: 71px;
+}
+
+.logo {
+    background-image: url(img/logo.svg);
+    background-repeat: no-repeat;
+    width: 67px;
+    height: 61px;
+    margin-left: 42px;
+    padding: 5px 0;
+}
+
+.logo__wrapper {
+    width: 50%;
+    border-right: 1px solid #7C7C7C;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: start;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #393939;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.menu__list > li:nth-child(1) {
+    padding: 27px 45px;
+    border-right: 1px solid #7C7C7C;
+}
+
+.menu__list > li:nth-child(2) {
+    padding: 27px 48px;
+    border-right: 1px solid #7C7C7C;
+}
+
+.menu__list > li:nth-child(3) {
+    display: block;
+    background-image: url(img/search.svg);
+    width: 30px;
+    height: 27px;
+    padding: 23px 30px 23px 30px;
+    border-right: 1px solid #7C7C7C;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu__list > li:nth-child(4) {
+    padding: 27px;
+    border-right: 1px solid #7C7C7C;
+}
+
+.menu__list > li:nth-child(5) {
+    display: block;
+    background-image: url(img/burger.svg);
+    width: 23px;
+    height: 12px;
+    padding: 30px 23px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
